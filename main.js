@@ -1,49 +1,46 @@
-var fields = ['speed', 'weight', 'acceleration', 'handling', 'drift', 'off_road', 'mini_turbo'];
-var inputForFields = {};
+const fields = ['speed', 'weight', 'acceleration', 'handling', 'drift', 'off_road', 'mini_turbo'];
+const inputForFields = {};
 
-var kartList;
-var characterList;
+let kartList;
+let characterList;
 
-function refresh() {
-	var weights = {};
-	$.each(fields, function(i,field) {
+const refresh = () => {
+	let weights = {};
+	fields.forEach(field => {
 		weights[field] = inputForFields[field].val();
 	});
 	
 	//sort 
-	$.each([
+	[
 		{sources:karts, srcList:kartList},
 		{sources:characters, srcList:characterList}
-	], function(_,info) {
-		var sources = info.sources;
-		var srcList = info.srcList;
-		var scores = {}
-		$.each(sources, function(i,src) {
-			var score = 0;
-			$.each(fields, function(i,field) {
+	].forEach(info => {
+		const sources = info.sources;
+		const srcList = info.srcList;
+		const scores = {}
+		sources.forEach((src,i) => {
+			let score = 0;
+			fields.forEach(field => {
 				score += src[field] * weights[field];
 			});
 			scores[i] = score;
 		});
-		var indexes = [];
-		for (var i = 0; i < sources.length; ++i) {
+		const indexes = [];
+		for (let i = 0; i < sources.length; ++i) {
 			indexes.push(i);
 		}
-		indexes.sort(function(a,b) {
-			return scores[b] - scores[a];
-		});
+		indexes.sort((a,b) => scores[b] - scores[a]);
 		srcList.empty();
-		var table = $('<table>', {
+		const table = $('<table>', {
 			border : 1,
 			cellspacing : 0,
 			cellpadding : 2
 		}).appendTo(srcList);
-		var headerTr = $('<tr>').appendTo(table);
-		var header = function(text) {
-			return $('<th>', {
-				text : text
+		const headerTr = $('<tr>').appendTo(table);
+		const header = text => 
+			$('<th>', {
+				text : text,
 			}).appendTo(headerTr);
-		};
 		header('score');
 		header('name');
 		header('size');
@@ -51,12 +48,12 @@ function refresh() {
 			header('type');
 			header('in_vs_out'.substr(0,2));
 		}
-		$.each(fields, function(j,field) {
+		fields.forEach(field => {
 			header(field.substr(0,2));
 		});
-		$.each(indexes, function(_,i) {
-			var src = sources[i];
-			var tr = $('<tr>').appendTo(table);
+		indexes.forEach(i => {
+			const src = sources[i];
+			const tr = $('<tr>').appendTo(table);
 			$('<td>', {text:scores[i]}).appendTo(tr);
 			$('<td>', {text:src.name}).appendTo(tr);
 			$('<td>', {text:src['size']}).appendTo(tr);
@@ -64,26 +61,26 @@ function refresh() {
 				$('<td>', {text:src.type}).appendTo(tr);
 				$('<td>', {text:src.in_vs_out}).appendTo(tr);
 			}
-			$.each(fields, function(j,field) {
+			fields.forEach(field => {
 				$('<td>', {text:src[field]}).appendTo(tr);
 			});
 		});
 	});
 }
 
-$(document).ready(function() {
-	var inputDiv = $('<div>', {
+$(document).ready(() => {
+	const inputDiv = $('<div>', {
 		css : {
 			display : 'table-cell'
 		}
 	}).appendTo(document.body);
 
 	$('<div>', {text:'Weights:', css:{'font-weight':'bold'}}).appendTo(inputDiv);
-	var table = $('<table>').appendTo(inputDiv);
-	$.each(fields, function(i,field) {
-		var tr = $('<tr>').appendTo(table);
+	const table = $('<table>').appendTo(inputDiv);
+	fields.forEach(field => {
+		const tr = $('<tr>').appendTo(table);
 		$('<td>', {text:field.substr(0,2)+' = '+field}).appendTo(tr);
-		var inputTd = $('<td>').appendTo(tr);
+		const inputTd = $('<td>').appendTo(tr);
 		inputForFields[field] = $('<input>', {
 			value : 1,
 			keyup : refresh
