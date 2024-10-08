@@ -1,0 +1,28 @@
+Name,,Unlock,Class,,,Speed,Weight,Acceleration,Handling,Drift,Off-Road,Mini-Turbo
+Baby Mario,,,Light ,,,0,8,0,6,0,0,0
+Baby Luigi,,8 Fast Ghosts,Light ,,,5,8,0,0,0,0,0
+Baby Peach,,,Light ,,,3,6,3,3,0,0,0
+Baby Daisy,,50cc New 1 Star,Light ,,,5,6,0,0,0,0,3
+Toad,,,Light ,,,0,0,6,0,6,0,0
+Toadette,,32 Time Trials,Light ,,,3,0,0,0,0,6,0
+Koopa Troopa,,,Light ,,,0,0,0,3,0,0,6
+Dry Bones,,100cc Leaf,Light ,,,0,0,3,0,3,0,6
+Mii (Light),,100cc Special,Light ,,,3,3,0,0,3,0,3
+Mario,,,Medium ,,,0,6,2,2,3,0,0
+Luigi,,,Medium ,,,2,6,0,0,0,0,0
+Peach,,,Medium ,,,2,0,5,0,6,0,0
+Daisy,,150cc Special,Medium ,,,4,0,0,2,0,0,3
+Yoshi,,,Medium ,,,0,3,0,0,3,5,0
+Birdo,,16 Time Trials,Medium ,,,0,3,0,0,0,3,5
+Diddy Kong,,50cc Lightning,Medium ,,,0,0,3,0,3,0,5
+Bowser Jr.,,100cc Retro 1 Star,Medium ,,,0,0,0,0,0,3,3
+Mii (Medium),,100cc Special,Medium ,,,3,3,0,0,0,3,3
+Wario,,,Heavy ,,,0,3,0,0,0,3,6
+Waluigi,,,Heavy ,,,0,0,6,0,5,3,0
+Donkey Kong,,,Heavy ,,,0,3,2,2,0,0,3
+Bowser,,,Heavy ,,,2,5,0,0,3,0,0
+King Boo,,50cc Star,Heavy ,,,0,0,0,5,0,3,0
+Rosalina,,Mirror All 1 Star,Heavy ,,,3,0,0,3,0,0,3
+Funky Kong,,4 Fast Ghosts,Heavy ,,,4,0,0,0,0,3,0
+Dry Bowser,,150cc New 1 Star,Heavy ,,,0,0,0,0,0,6,6
+Mii (Heavy),,100cc Special,Heavy ,,,3,0,3,3,3,0,0

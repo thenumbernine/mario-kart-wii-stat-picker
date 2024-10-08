@@ -1,0 +1,37 @@
+Name,EU Name,Unlock,Class,Type,In-vs-Out,Speed,Weight,Acceleration,Handling,Drift,Off-Road,Mini-Turbo
+Standard Kart S ,Standard Kart S ,,Light ,Kart,Out,41,29,48,48,51,40,45
+Booster Seat,Baby Booster ,,Light ,Kart,Out,27,27,56,64,37,54,59
+Mini Beast,Concerto ,,Light ,Kart,Out,55,32,29,32,64,27,64
+Cheep Charger ,Cheep Charger ,50cc Retro 1 Star,Light ,Kart,Out,34,24,64,56,59,45,54
+Tiny Titan,Rally Romper ,1 Fast Ghost,Light ,Kart,Out,46,35,43,43,29,64,40
+Blue Falcon ,Blue Falcon ,Mirror Lightning,Light ,Kart,Out,60,29,35,29,43,24,29
+Standard Bike S ,Standard Bike S ,,Light ,Bike,Out,39,21,51,51,54,43,48
+Bullet Bike ,Bullet Bike ,,Light ,Bike,In,53,24,32,35,67,29,67
+Bit Bike,Nanobike ,,Light ,Bike,Out,25,18,59,67,40,56,62
+Quacker ,Quacker ,150cc Star,Light ,Bike,In,32,17,67,60,62,48,57
+Magikruiser,Magikruiser,8 Time Trials,Light ,Bike,In,43,24,45,45,32,67,43
+Jet Bubble,Bubble Bike ,Mirror Leaf,Light ,Bike,In,48,27,40,40,45,35,37
+Standard Kart M ,Standard Kart M ,,Medium ,Kart,Out,46,45,40,43,45,35,40
+Classic Dragster,Nostalgia 1 ,,Medium ,Kart,Out,37,43,59,54,54,40,51
+Wild Wing ,Wild Wing ,,Medium ,Kart,Out,57,51,21,29,59,24,59
+Super Blooper,Turbo Blooper ,50cc Leaf,Medium ,Kart,Out,50,40,35,37,21,54,35
+Daytripper,Royal Racer ,150cc Leaf,Medium ,Kart,Out,34,45,51,59,32,48,54
+Sprinter,B Dasher MK 2,24 Fast Ghosts,Medium ,Kart,Out,64,48,27,24,37,21,24
+Standard Bike M ,Standard Bike M ,,Medium ,Bike,Out,43,37,43,45,48,37,43
+Mach Bike ,Mach Bike ,,Medium ,Bike,In,55,37,24,32,62,27,62
+Sugarscoot,Bon Bon ,,Medium ,Bike,Out,32,32,54,62,35,51,56
+Zip Zip,Rapide ,100cc Lightning,Medium ,Bike,Out,41,35,45,51,29,62,45
+Sneakster,Nitrocycle ,100cc New 1 Star,Medium ,Bike,In,62,40,29,27,40,24,27
+Dolphin Dasher ,Dolphin Dasher ,Mirror Star,Medium ,Bike,In,48,43,37,40,24,56,37
+Standard Kart L ,Standard Kart L ,,Heavy ,Kart,Out,48,59,37,40,40,35,35
+Offroader ,Offroader ,,Heavy ,Kart,Out,39,64,48,54,18,43,45
+Flame Flyer ,Flame Flyer ,,Heavy ,Kart,Out,62,59,16,21,48,18,48
+Piranha Prowler ,Piranha Prowler ,50cc Special,Heavy ,Kart,Out,55,67,29,35,35,29,27
+Jetsetter,Aero Glider,150cc Retro 1 Star,Heavy ,Kart,Out,69,56,21,17,27,16,16
+Honey Coupe,Dragonetti ,150cc Lightning,Heavy ,Kart,Out,53,62,27,29,56,24,56
+Standard Bike L ,Standard Bike L ,,Heavy ,Bike,Out,46,54,40,43,43,37,37
+Flame Runner,Bowser Bike ,,Heavy ,Bike,In,60,54,18,24,51,21,51
+Wario Bike ,Wario Bike ,,Heavy ,Bike,Out,37,59,51,56,21,45,48
+Shooting Star,Twinkle Star ,100cc Star,Heavy ,Bike,Out,50,48,29,32,59,27,59
+Spear,Torpedo,12 Fast Ghosts,Heavy ,Bike,In,67,56,24,18,29,18,18
+Phantom ,Phantom ,Mirror Special,Heavy ,Bike,Out,43,51,43,48,17,56,40
